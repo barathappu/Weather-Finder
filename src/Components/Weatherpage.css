@@ -1,0 +1,83 @@
+.weatherinfocontainer{
+    display: flex;
+    width: 90%;
+    margin: 5px auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.weathercontainer{
+    display: flex;
+    width: 100%;
+    margin: 20px auto;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.condition{
+    margin: 20px auto;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+.condition > span{
+    font-size: 28px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    margin: 5px auto;
+}
+
+.location{
+    margin: 5px auto;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.weatherinfo{
+    margin: 5px auto;  
+    margin-left: 20px;
+    font-size: 25px;
+    text-transform: capitalize;
+    text-align: start;
+    font-weight: bold;
+    text-align: left;
+}
+
+.infocontainer{
+    display: flex;
+    flex-direction: row;
+    margin: 5px auto;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.infoicon{
+    width: 36px;
+    height: 36px;
+}
+
+.infolabel{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    margin: 15px;
+}
+
+.infolabel > span{
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width: 480px) {
+    .infocontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: inherit;
+    }
+}

@@ -1,0 +1,54 @@
+.weatherimg{
+    display: flex;
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.choosecity{
+    margin: 20px auto;
+    font-size: 30px;
+    word-spacing: 4px;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+.searchbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+.searchbox > input{
+    border: 1px solid black;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px;
+    padding-left: 50px;
+}
+
+.searchbox input:focus{
+border: 1px solid black;
+border-radius: 0%;
+}
+
+.searchbox > button{
+    background-color: black;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    padding: 0 15px;
+    cursor: pointer;
+    border: none;
+    margin: 0%;
+    outline: none;
+}
+
+@media screen and (max-width: 400px) {
+    
+}
